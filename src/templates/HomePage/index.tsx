@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import { Container } from './styles';
 
 export const HomePage = () => (
@@ -9,7 +10,7 @@ export const HomePage = () => (
 
     <Container>
       <section>
-        <img src="/mt07.png" alt="MT-07" />
+        <Image src="/mt07.png" alt="MT-07" width={640} height={494} />
 
         <span>MT-07</span>
 
