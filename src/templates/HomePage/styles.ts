@@ -15,6 +15,7 @@ export const Container = styled.main`
   display: flex;
   align-items: center;
   height: 100vh;
+  overflow: hidden;
 
   section {
     position: relative;
@@ -28,8 +29,6 @@ export const Container = styled.main`
 
     img {
       z-index: 2;
-      width: 100%;
-      max-width: 640px;
       animation: ${appear} 1s;
       --position: -50px, 0;
     }
@@ -49,6 +48,10 @@ export const Container = styled.main`
       @media (max-width: 970px) {
         font-size: 12rem;
         top: -3rem;
+      }
+
+      @media (max-width: 768px) {
+        --position: 50px, 0;
       }
     }
 
