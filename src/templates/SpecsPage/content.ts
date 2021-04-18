@@ -1,0 +1,15 @@
+export const content = {
+  Engine: '689cc 2-cylinder, 4-stroke, liquid-cooled, DOHC, 4-valves',
+  Power: '75 cv @ 9.000 rpm',
+  Torque: '6,9 kgfm @ 6.500 rpm',
+  Transmission: '6-speed',
+  Frame: 'Steel diamond',
+  'Front suspension': 'Telescopic forks, 130mm travel',
+  'Rear suspension': 'Shock with linkage, 130mm travel',
+  'Front brake': '2x 282mm discs ABS',
+  'Rear brake': 'Single 245mm disc ABS',
+  Tyres: '17" tubeless, 120/70 front, 180/55 rear',
+  'Seat height': '805 mm',
+  'Wet weight': '183 kg',
+  'Fuel tank capacity': '14 L',
+};
