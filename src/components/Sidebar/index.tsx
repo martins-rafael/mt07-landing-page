@@ -24,7 +24,7 @@ export const Sidebar = () => (
         </a>
       </Link>
 
-      <Link href="https://github.com/martins-rafael/">
+      <Link href="https://github.com/martins-rafael/mt07-landing-page">
         <a title="Github" target="_blank" rel="noopener noreferrer">
           <Github />
         </a>
