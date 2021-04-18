@@ -10,7 +10,13 @@ export const HomePage = () => (
 
     <Container>
       <section>
-        <Image src="/mt07.png" alt="MT-07" width={640} height={494} />
+        <Image
+          src="/mt07.png"
+          alt="MT-07"
+          width={640}
+          height={494}
+          priority={true}
+        />
 
         <span>MT-07</span>
 
