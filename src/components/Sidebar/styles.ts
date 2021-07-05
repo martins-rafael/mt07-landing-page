@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.aside`
-  position: fixed;
+  position: absolute;
   top: 0;
-  right: 0;
-  z-index: 1;
+  left: 0;
+  z-index: 10;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,11 +12,10 @@ export const Container = styled.aside`
   padding: 1.5rem;
   width: 6rem;
   height: 100%;
-  background: #202020;
 
   > svg {
     font-size: 3rem;
-    color: var(--red);
+    color: var(--red-01);
   }
 
   nav {
@@ -29,17 +28,16 @@ export const Container = styled.aside`
     svg {
       margin: 1rem 0;
       font-size: 2rem;
-      color: var(--gray-dark);
+      color: var(--gray-02);
       transition: color 0.2s ease-in-out;
 
       &:hover {
-        color: var(--red-dark);
+        color: var(--red-02);
       }
     }
   }
 
   @media (max-width: 768px) {
-    left: 0;
     flex-direction: row;
     padding: 1rem;
     width: 100%;
