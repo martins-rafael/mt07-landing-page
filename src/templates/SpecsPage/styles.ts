@@ -18,6 +18,10 @@ export const Container = styled.section`
   animation: ${appear} 1s;
   --position: -100px, 0;
 
+  @media (max-width: 768px) {
+    padding: 3rem;
+  }
+
   h1 {
     font-size: 7rem;
     background: linear-gradient(to right, var(--red-02) 0%, transparent 50%);
