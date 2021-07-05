@@ -36,13 +36,13 @@ Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 git clone https://github.com/martins-rafael/mt07-landing-page.git
 # ou use a opção de download.
 
-# Entre na pasta web com
+# Entre na pasta com
 cd mt07-landing-page
 
 # Instale as dependências
 yarn install
 
-# Rode o aplicação
+# Rode a aplicação
 yarn dev
 
 # Acesse http://localhost:3000 no seu navagador.
