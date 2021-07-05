@@ -1,29 +1,31 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import { Container } from './styles';
+import { useEffect } from 'react';
 
-export const HomePage = () => (
-  <>
-    <Head>
-      <title>Home</title>
-    </Head>
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
-    <Container>
-      <section>
-        <Image
-          src="/mt07.png"
-          alt="MT-07"
-          width={640}
-          height={494}
-          priority={true}
-        />
+import { Hero } from '../../components/Hero';
+import { Feats } from '../../components/Feats';
+import { About } from '../../components/About';
+import { TestRide } from '../../components/TestRide';
+import { Footer } from '../../components/Footer';
 
-        <span>MT-07</span>
+export const HomePage = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
 
-        <h2>
-          Master of <span>Torque</span>
-        </h2>
-      </section>
-    </Container>
-  </>
-);
+  return (
+    <>
+      <Head>
+        <title>Home</title>
+      </Head>
+
+      <Hero />
+      <Feats animation="fade-right" />
+      <About animation="fade-down" />
+      <TestRide />
+      <Footer />
+    </>
+  );
+};
