@@ -13,14 +13,14 @@ const appear = keyframes`
 
 export const Container = styled.section`
   margin: 3rem auto;
-  padding: 3rem;
+  padding: 3rem 7rem;
   width: 100%;
   animation: ${appear} 1s;
   --position: -100px, 0;
 
   h1 {
     font-size: 7rem;
-    background: linear-gradient(to right, var(--red) 0%, transparent 50%);
+    background: linear-gradient(to right, var(--red-02) 0%, transparent 50%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -36,10 +36,10 @@ export const Container = styled.section`
     p {
       font-size: 1.125rem;
       letter-spacing: 1px;
-      color: var(--gray);
+      color: var(--gray-01);
 
       strong {
-        color: var(--white);
+        color: var(--white-01);
       }
 
       & + p {
