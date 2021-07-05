@@ -8,11 +8,16 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   :root {
-    --white: #ccd6f6;
-    --gray: #909090;
-    --gray-dark: #909090aa;
-    --red: #d52b1e;
-    --red-dark: #d52b1eaa;
+    --white-01: #ccd6f6;
+    --white-02: #c9d1d9;
+    --gray-01: #909090;
+    --gray-02: #404040;
+    --gray-03: #333333;
+    --gray-04: #202020;
+    --black-01: #101010;
+    --black-02: #000000;
+    --red-01: #d52b1e;
+    --red-02: #99281f;
   }
 
   ::-webkit-scrollbar {
@@ -20,20 +25,27 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   ::-webkit-scrollbar-track {
-    background: #202020;
+    background: var(--gray-04);
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #333333;
+    background: var(--gray-03);
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: var(--red-dark);
+    background: var(--red-02);
   }
 
-    body {
+  body {
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: var(--gray-04);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
     font-family: 'Play', sans-serif;
-    background: #202020;
   }
 
   a {
@@ -41,4 +53,7 @@ export const GlobalStyles = createGlobalStyle`
     text-decoration: none;
   }
 
+  button {
+    cursor: pointer;
+  }
 `;
