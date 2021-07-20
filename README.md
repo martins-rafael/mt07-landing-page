@@ -13,7 +13,7 @@
 
 ## Sobre
 
-Landing page da motocicleta [Yamaha MT-07](https://www3.yamaha-motor.com.br/mt-07-abs/product/30012), construída utilizando o framework Next.js e animações com CSS puro.
+Landing page da motocicleta [Yamaha MT-07](https://www3.yamaha-motor.com.br/mt-07-abs/product/30012), construída utilizando o framework Next.js.
 
 <br>
 
